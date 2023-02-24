@@ -13,7 +13,10 @@ Publicly available real-world datasets from the ODDS repositor (http://odds.cs.s
 
 ## Performance
 ### Comparison of the Receiver Operating Characteristic (ROC) curve
-<img src="D:\zjq\AD_PR一审修改\aadae-anomaly-detection-master\3.roc_pima.jpg" width="633" >
-
+The experiments are conducted under two task scenarios, Task I is a weakly supervised scenario using only normal samples for training (anomaly-free), and Task II is an unsupervised scenario where the training set is randomly mixed with a few anomalies.
+<img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/results/roccurve_pima_task1.jpg" width="300" ><img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/results/roccurve_pima_task2.jpg" width="300" >  
+Task I and Task II on Pima  
+<img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/results/roccurve_thyroid_task1.jpg" width="300" ><img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/results/roccurve_thyroid_task2.jpg" width="300" >  
+Task I and Task II on Thyroid 
 ### Special Thanks：
 Our work is inspired by Gong’s work in [Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder (MemAE) for Unsupervised Anomaly Detection](https://donggong1.github.io/anomdec-memae)
