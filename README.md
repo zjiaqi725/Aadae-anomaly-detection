@@ -9,7 +9,9 @@ scipy == 1.4.1
 sklearn == 0.0  
 
 #### 2.Dataset  
-Publicly available real-world datasets from the ODDS repositor (http://odds.cs.stonybrook.edu)
+Publicly available real-world datasets from the ODDS repositor (http://odds.cs.stonybrook.edu)  
+
+<img src="https://github.com/zjiaqi725/Aadae-anomaly-detection/blob/main/datasets/dataset%20information.jpg" width="300" >
 
 ## Performance
 ### Comparison of the Receiver Operating Characteristic (ROC) curve
